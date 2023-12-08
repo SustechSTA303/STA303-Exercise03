@@ -243,3 +243,5 @@ def tokenize(texts: Union[str, List[str]], context_length: int = 77, truncate: b
         result[i, :len(tokens)] = torch.tensor(tokens)
 
     return result
+
+
